@@ -24,6 +24,8 @@ namespace AdapterPattern
     //To fix this problem we create an interface with a method that the Client can use. This 
     //interface is then implemented by our adapter class. The Client then uses this object to
     //access the desired method
+
+    // Client --> Target Interface --> Adapter --> Adaptee { public void MethodClientWants() }
     
     class Client
     {
